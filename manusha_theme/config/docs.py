@@ -2,9 +2,9 @@
 Configuration for docs
 """
 
-# source_link = "https://github.com/[org_name]/custom_theme_manusha"
+# source_link = "https://github.com/[org_name]/manusha_theme"
 # headline = "App that does everything"
 # sub_heading = "Yes, you got that right the first time, everything"
 
 def get_context(context):
-	context.brand_html = "Erpnext theme by Manusha"
+	context.brand_html = "Manusha Theme"

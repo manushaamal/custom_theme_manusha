@@ -1,6 +1,6 @@
-## Erpnext theme by Manusha
+## Manusha Theme
 
-erpnext modern theme
+test
 
 #### License
 

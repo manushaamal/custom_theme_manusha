@@ -1,7 +1,7 @@
-app_name = "custom_theme_manusha"
-app_title = "Erpnext theme by Manusha"
+app_name = "manusha_theme"
+app_title = "Manusha Theme"
 app_publisher = "manusha"
-app_description = "erpnext modern theme"
+app_description = "test"
 app_email = "manushaamal@gmail.com"
 app_license = "MIT"
 
@@ -9,15 +9,15 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-app_include_css = "/assets/custom_theme_manusha/css/manusha_theme.css"
-app_include_js = "/assets/custom_theme_manusha/js/manusha_theme.js"
+# app_include_css = "/assets/manusha_theme/css/manusha_theme.css"
+# app_include_js = "/assets/manusha_theme/js/manusha_theme.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/custom_theme_manusha/css/custom_theme_manusha.css"
-# web_include_js = "/assets/custom_theme_manusha/js/custom_theme_manusha.js"
+# web_include_css = "/assets/manusha_theme/css/manusha_theme.css"
+# web_include_js = "/assets/manusha_theme/js/manusha_theme.js"
 
 # include custom scss in every website theme (without file extension ".scss")
-# website_theme_scss = "custom_theme_manusha/public/scss/website"
+# website_theme_scss = "manusha_theme/public/scss/website"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
@@ -54,43 +54,43 @@ app_include_js = "/assets/custom_theme_manusha/js/manusha_theme.js"
 
 # add methods and filters to jinja environment
 # jinja = {
-# 	"methods": "custom_theme_manusha.utils.jinja_methods",
-# 	"filters": "custom_theme_manusha.utils.jinja_filters"
+# 	"methods": "manusha_theme.utils.jinja_methods",
+# 	"filters": "manusha_theme.utils.jinja_filters"
 # }
 
 # Installation
 # ------------
 
-# before_install = "custom_theme_manusha.install.before_install"
-# after_install = "custom_theme_manusha.install.after_install"
+# before_install = "manusha_theme.install.before_install"
+# after_install = "manusha_theme.install.after_install"
 
 # Uninstallation
 # ------------
 
-# before_uninstall = "custom_theme_manusha.uninstall.before_uninstall"
-# after_uninstall = "custom_theme_manusha.uninstall.after_uninstall"
+# before_uninstall = "manusha_theme.uninstall.before_uninstall"
+# after_uninstall = "manusha_theme.uninstall.after_uninstall"
 
 # Integration Setup
 # ------------------
 # To set up dependencies/integrations with other apps
 # Name of the app being installed is passed as an argument
 
-# before_app_install = "custom_theme_manusha.utils.before_app_install"
-# after_app_install = "custom_theme_manusha.utils.after_app_install"
+# before_app_install = "manusha_theme.utils.before_app_install"
+# after_app_install = "manusha_theme.utils.after_app_install"
 
 # Integration Cleanup
 # -------------------
 # To clean up dependencies/integrations with other apps
 # Name of the app being uninstalled is passed as an argument
 
-# before_app_uninstall = "custom_theme_manusha.utils.before_app_uninstall"
-# after_app_uninstall = "custom_theme_manusha.utils.after_app_uninstall"
+# before_app_uninstall = "manusha_theme.utils.before_app_uninstall"
+# after_app_uninstall = "manusha_theme.utils.after_app_uninstall"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "custom_theme_manusha.notifications.get_notification_config"
+# notification_config = "manusha_theme.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -129,39 +129,39 @@ app_include_js = "/assets/custom_theme_manusha/js/manusha_theme.js"
 
 # scheduler_events = {
 # 	"all": [
-# 		"custom_theme_manusha.tasks.all"
+# 		"manusha_theme.tasks.all"
 # 	],
 # 	"daily": [
-# 		"custom_theme_manusha.tasks.daily"
+# 		"manusha_theme.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"custom_theme_manusha.tasks.hourly"
+# 		"manusha_theme.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"custom_theme_manusha.tasks.weekly"
+# 		"manusha_theme.tasks.weekly"
 # 	],
 # 	"monthly": [
-# 		"custom_theme_manusha.tasks.monthly"
+# 		"manusha_theme.tasks.monthly"
 # 	],
 # }
 
 # Testing
 # -------
 
-# before_tests = "custom_theme_manusha.install.before_tests"
+# before_tests = "manusha_theme.install.before_tests"
 
 # Overriding Methods
 # ------------------------------
 #
-override_whitelisted_methods = {
- 	"frappe.core.doctype.user.user.switch_theme": "custom_theme_manusha.overrides.switch_theme.switch_theme"
- }
+# override_whitelisted_methods = {
+# 	"frappe.desk.doctype.event.event.get_events": "manusha_theme.event.get_events"
+# }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-# 	"Task": "custom_theme_manusha.task.get_dashboard_data"
+# 	"Task": "manusha_theme.task.get_dashboard_data"
 # }
 
 # exempt linked doctypes from being automatically cancelled
@@ -175,13 +175,13 @@ override_whitelisted_methods = {
 
 # Request Events
 # ----------------
-# before_request = ["custom_theme_manusha.utils.before_request"]
-# after_request = ["custom_theme_manusha.utils.after_request"]
+# before_request = ["manusha_theme.utils.before_request"]
+# after_request = ["manusha_theme.utils.after_request"]
 
 # Job Events
 # ----------
-# before_job = ["custom_theme_manusha.utils.before_job"]
-# after_job = ["custom_theme_manusha.utils.after_job"]
+# before_job = ["manusha_theme.utils.before_job"]
+# after_job = ["manusha_theme.utils.after_job"]
 
 # User Data Protection
 # --------------------
@@ -211,5 +211,5 @@ override_whitelisted_methods = {
 # --------------------------------
 
 # auth_hooks = [
-# 	"custom_theme_manusha.auth.validate"
+# 	"manusha_theme.auth.validate"
 # ]

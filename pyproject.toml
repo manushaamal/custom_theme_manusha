@@ -1,9 +1,9 @@
 [project]
-name = "custom_theme_manusha"
+name = "manusha_theme"
 authors = [
     { name = "manusha", email = "manushaamal@gmail.com"}
 ]
-description = "erpnext modern theme"
+description = "test"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]

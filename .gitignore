@@ -3,5 +3,5 @@
 *.egg-info
 *.swp
 tags
-custom_theme_manusha/docs/current
+manusha_theme/docs/current
 node_modules/
