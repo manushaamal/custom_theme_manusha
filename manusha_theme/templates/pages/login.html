@@ -1,0 +1,60 @@
+<!-- manusha_theme/templates/pages/login.html -->
+{% extends "base.html" %}
+
+{% block header %}
+<style>
+    /* Add any specific styles for the login page here */
+    body {
+        background-color: #f8f9fa; /* Light background for a flat look */
+    }
+    .login-container {
+        max-width: 400px;
+        margin: 100px auto;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        background-color: #ffffff;
+    }
+    .login-header {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .btn-login {
+        width: 100%;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-4">
+            <div class="login-container">
+                <div class="login-header">
+                    <img src="/assets/manusha_theme/images/erpnext-logo.png" alt="Your Logo" class="app-logo mb-3" style="max-height: 60px;">
+                    <h3>Login to ERPNext</h3>
+                </div>
+                <form class="form-login" role="form">
+                    <div class="mb-3">
+                        <label for="inputEmail" class="form-label">Email address</label>
+                        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputPassword" class="form-label">Password</label>
+                        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                    </div>
+                    <div class="form-check mb-3">
+                        <input type="checkbox" class="form-check-input" id="rememberMe">
+                        <label class="form-check-label" for="rememberMe">Remember me</label>
+                    </div>
+                    <button class="btn btn-primary btn-lg btn-login" type="submit">Sign in</button>
+                    <hr>
+                    <p class="text-center">
+                        <a href="/forgot" class="text-decoration-none">Forgot password?</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
