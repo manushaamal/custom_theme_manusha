@@ -15,6 +15,7 @@ frappe.ready(function() {
                 pwd: pwd
             },
             callback: function(r) {
+                console.log(r); // Add this line to inspect the response
                 if (r.message === "Logged In") {
                     // Redirect to desk or a custom page on successful login
                     window.location.href = "/app";
